@@ -2,7 +2,7 @@
 
 Backend engineer building production systems from first principles. I write code to understand how systems actually work: token rotation, concurrent connection state, message durability, schema migrations. No SDK gluing. No shortcuts.
 
-Finalizing BCA at East Point College, Bengaluru (graduating June 2027).
+Finalizing BCA at East Point College, Bengaluru.
 
 ---
 
