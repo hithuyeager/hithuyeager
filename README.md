@@ -1,74 +1,79 @@
 # Hey, I'm Hithesh 👋
 
-**Backend engineer** | Real-time systems | Auth + scaling | Learning in public
+Backend engineer building production systems from first principles. I write code to understand how systems actually work: token rotation, concurrent connection state, message durability, schema migrations. No SDK gluing. No shortcuts.
 
-I build **production systems** from first principles — not glued together from SDKs. I write code to understand how systems actually work: token rotation logic, concurrent connection state, message durability, schema migrations. Currently finalizing my BCA at East Point College (graduating June 2027) while shipping things people use.
-
----
-
-## What I ship
-
-### [**Connect** — Real-time Messaging Backend](https://github.com/hithuyeager/connect-with-friends)
-A production-grade real-time chat backend I built solo to understand **every layer** of auth and real-time systems.
-
-**Why it matters:**
-- **JWT refresh token rotation with theft detection** — single-use tokens that invalidate the whole session chain if replayed
-- **Native WebSocket real-time chat** — deterministic room IDs, connection state management, live delivery
-- **Persisted message history** — every message durably written to Postgres; offline users see full history on login
-- **Google OAuth2 integration** — account linking via Authlib without outsourcing auth
-- **Async background tasks** — Celery + Redis for email delivery, decoupled from request/response
-- **Layered architecture** → routes never touch the database; services never know about HTTP
-- **9 tracked schema migrations** — real iterative changes, not a single "perfect" schema
-
-**Tech:** FastAPI · PostgreSQL · Redis · Celery · WebSockets · Docker · Alembic  
-**Deployed:** Render (API + worker) · Neon (database) · Netlify (frontend)  
-**Live:** [snazzy-begonia-cbabf5.netlify.app](https://snazzy-begonia-cbabf5.netlify.app) — try demo account
+Finalizing BCA at East Point College, Bengaluru (graduating June 2027).
 
 ---
 
-## What I'm learning next
+## Tech Stack
 
-**12-month trajectory:** Backend mastery → LLM API integration → ML/AI engineering  
-
-Currently diving into:
-- **PostgreSQL internals** — query planning, indexes, transaction isolation levels
-- **Async I/O + concurrency** — how async/await actually works, event loops, connection pooling
-- **Scaling patterns** — horizontal scaling, database sharding, distributed tracing
-- **LLM API design** — building backends that integrate Claude/OpenAI APIs efficiently
-- **System design** — designing for reliability, failure modes, observability
-
-No bootcamp shortcuts. No paid certs. Just shipping + learning the hard parts.
+![Python](https://img.shields.io/badge/Python-3776ab?style=flat-square&logo=python&logoColor=white)
+![FastAPI](https://img.shields.io/badge/FastAPI-009688?style=flat-square&logo=fastapi&logoColor=white)
+![PostgreSQL](https://img.shields.io/badge/PostgreSQL-336791?style=flat-square&logo=postgresql&logoColor=white)
+![Redis](https://img.shields.io/badge/Redis-DC382D?style=flat-square&logo=redis&logoColor=white)
+![WebSockets](https://img.shields.io/badge/WebSockets-010101?style=flat-square&logo=websocket&logoColor=white)
+![Docker](https://img.shields.io/badge/Docker-2496ED?style=flat-square&logo=docker&logoColor=white)
+![SQLAlchemy](https://img.shields.io/badge/SQLAlchemy-red?style=flat-square)
+![Celery](https://img.shields.io/badge/Celery-37B24D?style=flat-square&logo=celery&logoColor=white)
 
 ---
 
-## By the numbers
+## Projects
 
-- **19** years old, Bengaluru
-- **50+ GitHub repositories** — ranging from DSA drills to full-stack projects
-- **GitHub traffic:** sustained multi-visitor interest in architecture-specific code (database layers, repository patterns)
-- **Target:** High-paying backend role within 8 months post-graduation; eventually founding a company
+### 🔗 Connect — Real-time Messaging Backend
 
----
+**Live:** https://snazzy-begonia-cbabf5.netlify.app | **Repo:** https://github.com/hithuyeager/connect-with-friends
 
-## Let's connect
+Production-grade real-time chat backend built solo to understand every layer of authentication and real-time systems.
 
-- **Email:** hitheshrhithu41@gmail.com
-- **LinkedIn:** [@hithesh](https://linkedin.com/in/your-linkedin)
-- **GitHub:** [@hithuyeager](https://github.com/hithuyeager)
-- **Resume:** [one-page PDF with live links](https://link-to-your-resume.pdf)
+**Architecture highlights:**
+- JWT refresh token rotation with theft detection. Single-use tokens that invalidate the entire session chain if replayed.
+- Native WebSocket real-time chat with deterministic room IDs, connection state management, live message delivery.
+- Persisted message history in PostgreSQL. Every message durably written on send; offline users see full history on login.
+- Google OAuth2 integration with account linking via Authlib. No auth-as-a-service SDKs.
+- Async background tasks via Celery and Redis for email delivery, decoupled from the request/response cycle.
+- Layered architecture: routes never touch the database; services never know about HTTP; repositories isolated from business logic.
+- 9 tracked schema migrations reflecting real iterative changes, not a single upfront "perfect" schema.
 
----
-
-### A note on how I work
-
-I believe in:
-- **Understanding before building** — shipping something half-baked is slower than spending time on architecture
-- **Layered code** — separation of concerns isn't religious dogma, it's practical isolation of bugs
-- **Durability over shortcuts** — transactions, error handling, and migrations matter more than "done fast"
-- **Learning in public** — GitHub is my notebook; code is how I think
-
-If you're hiring for backend roles or want to collaborate, let's talk.
+**Stack:**
+![FastAPI](https://img.shields.io/badge/FastAPI-009688?style=flat-square&logo=fastapi&logoColor=white)
+![PostgreSQL](https://img.shields.io/badge/PostgreSQL-336791?style=flat-square&logo=postgresql&logoColor=white)
+![Redis](https://img.shields.io/badge/Redis-DC382D?style=flat-square&logo=redis&logoColor=white)
+![Celery](https://img.shields.io/badge/Celery-37B24D?style=flat-square&logo=celery&logoColor=white)
+![Docker](https://img.shields.io/badge/Docker-2496ED?style=flat-square&logo=docker&logoColor=white)
+![Alembic](https://img.shields.io/badge/Alembic-FCC624?style=flat-square)
 
 ---
 
-*Last updated: September 2026*
+## Current Focus
+
+**12-month trajectory:** Backend mastery → LLM API integration → ML/AI engineering
+
+Diving into:
+- 🗄️ PostgreSQL internals: query planning, indexes, transaction isolation
+- ⚡ Async I/O and concurrency: event loops, connection pooling, backpressure
+- 📈 Scaling patterns: horizontal scaling, database sharding, distributed tracing
+- 🤖 LLM API design: building backends that integrate Claude/OpenAI efficiently
+- 🛡️ System design: reliability, failure modes, observability
+
+No bootcamp shortcuts. No paid certificates. Just shipping and learning the hard parts.
+
+---
+
+## Let's Connect
+
+| | |
+|---|---|
+| 📧 **Email** | hitheshrhithu41@gmail.com |
+| 💼 **LinkedIn** | working on it |
+| 📄 **Resume** | working on it |
+
+---
+
+### Stats
+
+- 20 years old, Bengaluru-based
+- 50+ GitHub repositories (DSA, full-stack, systems work)
+- GitHub traffic: sustained multi-visitor interest in architecture-specific code
+- Target: High-paying backend role
