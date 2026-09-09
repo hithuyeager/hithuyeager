@@ -67,7 +67,7 @@ No bootcamp shortcuts. No paid certificates. Just shipping and learning the hard
 |---|---|
 | 📧 **Email** | hitheshrhithu41@gmail.com |
 | 💼 **LinkedIn** | www.linkedin.com/in/hithesh-r-hithu-851652328|
-| 📄 **Resume** | working on it |
+| 📄 **Resume** | (https://github.com/hithuyeager/url-shortner/resume/resume.pdf) |
 
 ---
 
